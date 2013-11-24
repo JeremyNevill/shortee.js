@@ -2,6 +2,10 @@
 
 Javascript shortee message parser.
 
+See the shortee message specification at:
+https://github.com/JeremyNevill/shortee/blob/master/Shortee_specification.md
+
+
 ## Getting Started
 Install the module with: `npm install shortee`
 

@@ -18,7 +18,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/JeremyNevill/shortee.js/blob/master/LICENSE-MIT"
+      "url": "https://github.com/JeremyNevill/shortee.js/blob/master/LICENSE"
     }
   ],
   "main": "lib/shortee",
