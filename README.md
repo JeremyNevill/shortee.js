@@ -1,11 +1,27 @@
-shortee.js
-==========
+# shortee
 
-shortee.js is a simple implementation of a parser for the shortee message format detailed at:
-https://github.com/JeremyNevill/shortee/blob/master/Shortee_specification.md
+Javascript shortee message parser.
 
-The parser uses the awesome peg.js http://pegjs.majda.cz/online , thanks to them for helping us create our parser.
+## Getting Started
+Install the module with: `npm install shortee`
 
+```javascript
+var shortee = require('shortee');
+shortee.awesome(); // "awesome"
+```
 
+## Documentation
+_(Coming soon)_
 
+## Examples
+_(Coming soon)_
 
+## Contributing
+In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
+
+## Release History
+_(Nothing yet)_
+
+## License
+Copyright (c) 2013 Jeremy Nevill  
+Licensed under the MIT license.

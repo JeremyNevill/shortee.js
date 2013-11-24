@@ -2,33 +2,33 @@ start = shortee / shorteewithactee
 
 shortee
     = amper actor:word space
-    action:word space
-    amount:integer units:word space
-    date:datevalue
-    { return {actor:actor,action:action,
+action:word space
+amount:integer units:word space
+date:datevalue
+{ return {actor:actor,action:action,
     amount:amount,units:units, date:date}}
 
 shorteewithactee
     = amper actor:word space
-    action:word space
-    amper actee:word space
-    amount:integer units:word space
-    date:datevalue
-    { return {actor:actor,action:action,
+action:word space
+amper actee:word space
+amount:integer units:word space
+date:datevalue
+{ return {actor:actor,action:action,
     actee:actee, amount:amount,units:units, date:date}}
 
 datevalue =
     day:integer datedivider month:char+ datedivider +     year:integer
-    {return day + "/" + month.join("") + "/" + year}
+{return day + "/" + month.join("") + "/" + year}
 
 word
     = chars:char+
-    {return chars.join("")}
+{return chars.join("")}
 
 
 integer "integer"
     = digits:[0-9]+
-    { return parseInt(digits.join(""), 10); }
+{ return parseInt(digits.join(""), 10); }
 
 amper
     = '@'
@@ -42,6 +42,5 @@ space
 spaces
     = space+
 
-datedivider
+    datedivider
     = '/'
-
