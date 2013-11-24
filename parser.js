@@ -8,13 +8,14 @@ date:datevalue
 { return {actor:actor,action:action,
     amount:amount,units:units, date:date}}
 
+datevalue =
+    day:integer datedivider month:char+ datedivider + year:integer
+{return day + "/" + month.join("") + "/" + year}
+
 word
     = chars:char+
 {return chars.join("")}
 
-datevalue =
-    day:integer datedivider month:char+ datedivider + year:integer
-{return day + "/" + month.join("") + "/" + year}
 
 integer "integer"
     = digits:[0-9]+
