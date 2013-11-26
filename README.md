@@ -1,4 +1,4 @@
-# shortee
+# Shortee.js
 
 Shortee is a javascript implementation of a shortee message format parser.
 
