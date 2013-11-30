@@ -24,5 +24,11 @@ exports['parse'] = {
         // tests here
         test.equal(shortee.parser.parse('@Rod ate 1cheese 01/jan/2013').actor, 'Rod', 'should parse mixed case actor');
         test.done();
+    },
+    'parses forename surname actor': function (test) {
+        test.expect(1);
+        // tests here
+        test.equal(shortee.parser.parse('@SimonSmith ate 1cheese 01/jan/2013').actor, 'SimonSmith', 'should parse forename surname actor');
+        test.done();
     }
 };
