@@ -6,6 +6,9 @@ See the shortee message specification at:
 
   https://github.com/JeremyNevill/shortee/blob/master/Shortee_specification.md
 
+This implementation is used in [firework-ng](https://github.com/JeremyNevill/firework-ng), part of the [Firework Micrologging Framework](https://github.com/JeremyNevill/firework)
+
+
 The parser is generated from the shortee.pegjs grammar file using the PEG.js parser generator.
 Thanks to David Majda for creating PEG.js which is located at http://pegjs.majda.cz
 
@@ -59,5 +62,5 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 Nov 2013 - Project start
 
 ## License
-Copyright (c) 2013 Jeremy Nevill  
+Copyright (c) 2013-2014 [Jeremy Nevill](http://nevill.net)
 Licensed under the MIT license.
