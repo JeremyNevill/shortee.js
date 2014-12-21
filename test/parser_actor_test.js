@@ -30,5 +30,11 @@ exports['parse'] = {
         // tests here
         test.equal(shortee.parser.parse('@SimonSmith ate 1cheese 01/jan/2013').actor, 'SimonSmith', 'should parse forename surname actor');
         test.done();
+    },
+    'parses forename middlename surname actor': function (test) {
+        test.expect(1);
+        // tests here
+        test.equal(shortee.parser.parse('@SimonWhitcupletSmith ate 1cheese 01/jan/2013').actor, 'SimonWhitcupletSmith', 'should parse forename middlename surname actor');
+        test.done();
     }
 };
